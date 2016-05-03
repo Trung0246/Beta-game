@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Idle game v0.0.0.0</title>
+    <meta charset="utf-8" />
+    <style type="text/css">
+        #Button_Hero,
+        #Button_Inventory,
+        #Button_BlackSmith,
+        #Button_Wizardry {
+            width: 80px;
+            height: 30px;
+        }
+
+        #Button_1 {
+            width: 80px;
+            height: 30px;
+        }
+
+        #Button_2 {
+            width: 80px;
+            height: 30px;
+        }
+    </style>
+    <!-- Start Extension File -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.2.1/math.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.2.1/math.map"></script>
+    <script type="text/javascript" src="https://rawgit.com/scottcorgan/tiny-emitter/master/dist/tinyemitter.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/josdejong/typed-function/master/typed-function.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/infusion/Fraction.js/master/fraction.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/infusion/Complex.js/master/complex.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/MikeMcl/decimal.js/master/decimal.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/andris9/jStorage/master/jstorage.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.3/moment-timezone.min.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/mrchimp/tock/master/tock.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/pixijs/pixi.js/master/bin/pixi.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/schteppe/p2.js/master/build/p2.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/photonstorm/phaser/v2.4.6/build/phaser.js"></script>
+    <script type="text/javascript" src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/enyo/opentip/master/downloads/opentip-jquery.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- End Extension File -->
+    <!-- Start Game File -->
+    <script type="text/javascript" src="js/variable.js"></script>
+    <script type="text/javascript" src="js/function.js"></script>
+    <!-- End Game file -->
+</head>
+<body id="Game_Container" style="width: 800px; height: 500px">
+    <div id="Div_Container" style="width: 800px; height: 500px">
+        <div style="width: 160px; height: 64px" id="Div_Menu_1">
+            <img id="Button_Hero" alt="Hero" src="" /><img id="Button_Inventory" alt="Inventory" src="" /> <img id="Button_BlackSmith" \ alt="Blacksmith" src="" /><img id="Button_Wizardry" alt="Wizardry" src="" onclick="Wizardry_Click()" />
+            <div id="Div_Menu_2" style="height: 30px; width: 160px"> <img id="Button_1" alt="Button_1" src="" /><img id="Button_2" alt="Button_1" src="" /> </div>
+        </div>
+    </div>
+</body>
+
+</html>
