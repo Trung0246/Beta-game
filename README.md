@@ -1,2 +1,2 @@
-# Beta-game
-A Idle Game based on many previous idle games
+# Beta-game v0.0.0.0
+
